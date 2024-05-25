@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/MiniSocialMediaFeed.API/bin/Debug/net8.0
+/.vs
+/MiniSocialMediaFeed.API/obj
+/MiniSocialMediaFeed.Application/bin/Debug/net8.0
+/MiniSocialMediaFeed.Application/obj
+/MiniSocialMediaFeed.Domain/bin/Debug/net8.0
+/MiniSocialMediaFeed.Domain/obj
+/MiniSocialMediaFeed.Infrastructure/bin/Debug/net8.0
+/MiniSocialMediaFeed.Infrastructure/obj

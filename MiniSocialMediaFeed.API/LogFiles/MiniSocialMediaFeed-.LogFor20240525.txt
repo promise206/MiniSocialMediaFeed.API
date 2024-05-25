@@ -1,0 +1,1347 @@
+[2024-05-25 00:30:16.195 +01:00  INF]  User profile is available. Using 'C:\Users\okpal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-25 00:30:16.408 +01:00  INF]  Creating key {5156f1f7-02d7-4f0e-9d2a-3d7af071b223} with creation date 2024-05-24 23:30:16Z, activation date 2024-05-24 23:30:16Z, and expiration date 2024-08-22 23:30:16Z.
+[2024-05-25 00:30:16.437 +01:00  INF]  Writing data to file 'C:\Users\okpal\AppData\Local\ASP.NET\DataProtection-Keys\key-5156f1f7-02d7-4f0e-9d2a-3d7af071b223.xml'.
+[2024-05-25 00:30:17.111 +01:00  INF]  Now listening on: https://localhost:7065
+[2024-05-25 00:30:17.111 +01:00  INF]  Now listening on: http://localhost:5292
+[2024-05-25 00:30:17.115 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2024-05-25 00:30:17.116 +01:00  INF]  Hosting environment: Development
+[2024-05-25 00:30:17.116 +01:00  INF]  Content root path: C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.API
+[2024-05-25 00:30:18.391 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger - null null
+[2024-05-25 00:30:19.012 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger - 301 0 null 632.5644ms
+[2024-05-25 00:30:19.021 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/index.html - null null
+[2024-05-25 00:30:19.330 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/index.html - 200 null text/html;charset=utf-8 309.2967ms
+[2024-05-25 00:30:19.340 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/swagger-ui.css - null null
+[2024-05-25 00:30:19.343 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/swagger-ui-bundle.js - null null
+[2024-05-25 00:30:19.361 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/swagger-ui-standalone-preset.js - null null
+[2024-05-25 00:30:19.367 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/_framework/aspnetcore-browser-refresh.js - null null
+[2024-05-25 00:30:19.411 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 44.261ms
+[2024-05-25 00:30:19.509 +01:00  INF]  Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2024-05-25 00:30:19.509 +01:00  INF]  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2024-05-25 00:30:19.519 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/swagger-ui.css - 200 143943 text/css 178.2334ms
+[2024-05-25 00:30:19.519 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 168.7504ms
+[2024-05-25 00:30:19.533 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/_vs/browserLink - null null
+[2024-05-25 00:30:19.591 +01:00  INF]  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2024-05-25 00:30:19.591 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 249.7537ms
+[2024-05-25 00:30:19.686 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/_vs/browserLink - 200 null text/javascript; charset=UTF-8 153.9259ms
+[2024-05-25 00:30:20.041 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/v1/swagger.json - null null
+[2024-05-25 00:30:20.080 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/favicon-32x32.png - null null
+[2024-05-25 00:30:20.081 +01:00  INF]  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+[2024-05-25 00:30:20.082 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/favicon-32x32.png - 200 628 image/png 1.9598ms
+[2024-05-25 00:30:20.967 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 925.6994ms
+[2024-05-25 00:34:49.402 +01:00  INF]  Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+[2024-05-25 00:34:49.460 +01:00  INF]  Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+[2024-05-25 00:34:49.462 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+[2024-05-25 00:34:49.536 +01:00  INF]  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+[2024-05-25 00:34:49.537 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+[2024-05-25 00:34:49.539 +01:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+[2024-05-25 00:34:49.544 +01:00  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+[2024-05-25 00:34:49.559 +01:00  INF]  Applying migration '20240524233251_InitialMigration'.
+[2024-05-25 00:34:49.596 +01:00  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [Username] nvarchar(max) NOT NULL,
+    [PasswordHash] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id])
+);
+[2024-05-25 00:34:49.608 +01:00  ERR]  Failed executing DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Follows] (
+    [FollowerId] int NOT NULL,
+    [FolloweeId] int NOT NULL,
+    [Id] int NOT NULL,
+    CONSTRAINT [PK_Follows] PRIMARY KEY ([FollowerId], [FolloweeId]),
+    CONSTRAINT [FK_Follows_Users_FolloweeId] FOREIGN KEY ([FolloweeId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Follows_Users_FollowerId] FOREIGN KEY ([FollowerId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+[2024-05-25 00:38:16.427 +01:00  INF]  Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+[2024-05-25 00:38:16.502 +01:00  INF]  Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+[2024-05-25 00:38:16.515 +01:00  INF]  Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+[2024-05-25 00:38:16.533 +01:00  INF]  Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+[2024-05-25 00:38:16.555 +01:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+[2024-05-25 00:38:16.574 +01:00  INF]  Applying migration '20240524233251_InitialMigration'.
+[2024-05-25 00:38:16.640 +01:00  INF]  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [Username] nvarchar(max) NOT NULL,
+    [PasswordHash] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id])
+);
+[2024-05-25 00:38:16.649 +01:00  ERR]  Failed executing DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Follows] (
+    [FollowerId] int NOT NULL,
+    [FolloweeId] int NOT NULL,
+    [Id] int NOT NULL,
+    CONSTRAINT [PK_Follows] PRIMARY KEY ([FollowerId], [FolloweeId]),
+    CONSTRAINT [FK_Follows_Users_FolloweeId] FOREIGN KEY ([FolloweeId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Follows_Users_FollowerId] FOREIGN KEY ([FollowerId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+[2024-05-25 00:39:39.285 +01:00  INF]  Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+[2024-05-25 00:39:39.346 +01:00  INF]  Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+[2024-05-25 00:39:39.349 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+[2024-05-25 00:39:39.350 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+[2024-05-25 00:39:39.363 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+[2024-05-25 00:39:39.382 +01:00  INF]  Applying migration '20240524233251_InitialMigration'.
+[2024-05-25 00:39:39.442 +01:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [Username] nvarchar(max) NOT NULL,
+    [PasswordHash] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id])
+);
+[2024-05-25 00:39:39.450 +01:00  ERR]  Failed executing DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Follows] (
+    [FollowerId] int NOT NULL,
+    [FolloweeId] int NOT NULL,
+    [Id] int NOT NULL,
+    CONSTRAINT [PK_Follows] PRIMARY KEY ([FollowerId], [FolloweeId]),
+    CONSTRAINT [FK_Follows_Users_FolloweeId] FOREIGN KEY ([FolloweeId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Follows_Users_FollowerId] FOREIGN KEY ([FollowerId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+[2024-05-25 00:43:20.444 +01:00  INF]  Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+[2024-05-25 00:43:20.493 +01:00  INF]  Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+[2024-05-25 00:43:20.495 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+[2024-05-25 00:43:20.496 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+[2024-05-25 00:43:20.509 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+[2024-05-25 00:43:20.523 +01:00  INF]  Applying migration '20240524233251_InitialMigration'.
+[2024-05-25 00:43:20.568 +01:00  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [Username] nvarchar(max) NOT NULL,
+    [PasswordHash] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id])
+);
+[2024-05-25 00:43:20.581 +01:00  ERR]  Failed executing DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Follows] (
+    [FollowerId] int NOT NULL,
+    [FolloweeId] int NOT NULL,
+    [Id] int NOT NULL,
+    CONSTRAINT [PK_Follows] PRIMARY KEY ([FollowerId], [FolloweeId]),
+    CONSTRAINT [FK_Follows_Users_FolloweeId] FOREIGN KEY ([FolloweeId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Follows_Users_FollowerId] FOREIGN KEY ([FollowerId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+[2024-05-25 00:45:27.899 +01:00  INF]  Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+[2024-05-25 00:45:27.964 +01:00  INF]  Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+[2024-05-25 00:45:27.967 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+[2024-05-25 00:45:27.974 +01:00  INF]  Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+[2024-05-25 00:45:27.993 +01:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+[2024-05-25 00:45:28.010 +01:00  INF]  Applying migration '20240524233251_InitialMigration'.
+[2024-05-25 00:45:28.077 +01:00  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [Username] nvarchar(max) NOT NULL,
+    [PasswordHash] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id])
+);
+[2024-05-25 00:45:28.086 +01:00  ERR]  Failed executing DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Follows] (
+    [FollowerId] int NOT NULL,
+    [FolloweeId] int NOT NULL,
+    [Id] int NOT NULL,
+    CONSTRAINT [PK_Follows] PRIMARY KEY ([FollowerId], [FolloweeId]),
+    CONSTRAINT [FK_Follows_Users_FolloweeId] FOREIGN KEY ([FolloweeId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Follows_Users_FollowerId] FOREIGN KEY ([FollowerId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+[2024-05-25 00:47:12.564 +01:00  INF]  Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+[2024-05-25 00:47:12.610 +01:00  INF]  Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+[2024-05-25 00:47:12.612 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+[2024-05-25 00:47:12.613 +01:00  INF]  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+[2024-05-25 00:47:12.630 +01:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+[2024-05-25 00:47:12.648 +01:00  INF]  Applying migration '20240524233251_InitialMigration'.
+[2024-05-25 00:47:12.717 +01:00  INF]  Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [Username] nvarchar(max) NOT NULL,
+    [PasswordHash] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id])
+);
+[2024-05-25 00:47:12.727 +01:00  ERR]  Failed executing DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Follows] (
+    [FollowerId] int NOT NULL,
+    [FolloweeId] int NOT NULL,
+    [Id] int NOT NULL,
+    CONSTRAINT [PK_Follows] PRIMARY KEY ([FollowerId], [FolloweeId]),
+    CONSTRAINT [FK_Follows_Users_FolloweeId] FOREIGN KEY ([FolloweeId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Follows_Users_FollowerId] FOREIGN KEY ([FollowerId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+[2024-05-25 00:48:54.941 +01:00  INF]  Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+[2024-05-25 00:48:55.007 +01:00  INF]  Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+[2024-05-25 00:48:55.010 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+[2024-05-25 00:48:55.011 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+[2024-05-25 00:48:55.031 +01:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+[2024-05-25 00:48:55.046 +01:00  INF]  Applying migration '20240524233251_InitialMigration'.
+[2024-05-25 00:48:55.105 +01:00  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [Username] nvarchar(max) NOT NULL,
+    [PasswordHash] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id])
+);
+[2024-05-25 00:48:55.114 +01:00  ERR]  Failed executing DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Follows] (
+    [FollowerId] int NOT NULL,
+    [FolloweeId] int NOT NULL,
+    [Id] int NOT NULL,
+    CONSTRAINT [PK_Follows] PRIMARY KEY ([FollowerId], [FolloweeId]),
+    CONSTRAINT [FK_Follows_Users_FolloweeId] FOREIGN KEY ([FolloweeId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Follows_Users_FollowerId] FOREIGN KEY ([FollowerId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+[2024-05-25 00:49:33.856 +01:00  INF]  Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+[2024-05-25 00:49:33.909 +01:00  INF]  Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+[2024-05-25 00:49:33.912 +01:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+[2024-05-25 00:49:33.914 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+[2024-05-25 00:49:33.935 +01:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+[2024-05-25 00:49:33.956 +01:00  INF]  Applying migration '20240524234926_Initial'.
+[2024-05-25 00:49:34.024 +01:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [Username] nvarchar(max) NOT NULL,
+    [PasswordHash] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id])
+);
+[2024-05-25 00:49:34.027 +01:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Follows] (
+    [Id] int NOT NULL IDENTITY,
+    [FollowerId] int NOT NULL,
+    [FolloweeId] int NOT NULL,
+    CONSTRAINT [PK_Follows] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Follows_Users_FolloweeId] FOREIGN KEY ([FolloweeId]) REFERENCES [Users] ([Id]),
+    CONSTRAINT [FK_Follows_Users_FollowerId] FOREIGN KEY ([FollowerId]) REFERENCES [Users] ([Id])
+);
+[2024-05-25 00:49:34.032 +01:00  INF]  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Posts] (
+    [Id] int NOT NULL IDENTITY,
+    [Content] nvarchar(max) NOT NULL,
+    [Likes] int NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [UserId] int NOT NULL,
+    CONSTRAINT [PK_Posts] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Posts_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+[2024-05-25 00:49:34.033 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Follows_FolloweeId] ON [Follows] ([FolloweeId]);
+[2024-05-25 00:49:34.034 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Follows_FollowerId] ON [Follows] ([FollowerId]);
+[2024-05-25 00:49:34.036 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Posts_UserId] ON [Posts] ([UserId]);
+[2024-05-25 00:49:34.038 +01:00  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240524234926_Initial', N'8.0.5');
+[2024-05-25 00:50:32.436 +01:00  INF]  User profile is available. Using 'C:\Users\okpal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-25 00:50:32.980 +01:00  INF]  Now listening on: https://localhost:7065
+[2024-05-25 00:50:32.983 +01:00  INF]  Now listening on: http://localhost:5292
+[2024-05-25 00:50:32.986 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2024-05-25 00:50:32.987 +01:00  INF]  Hosting environment: Development
+[2024-05-25 00:50:32.987 +01:00  INF]  Content root path: C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.API
+[2024-05-25 00:50:33.845 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/index.html - null null
+[2024-05-25 00:50:34.953 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/_framework/aspnetcore-browser-refresh.js - null null
+[2024-05-25 00:50:34.976 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/index.html - 200 null text/html;charset=utf-8 1136.7072ms
+[2024-05-25 00:50:34.984 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/_vs/browserLink - null null
+[2024-05-25 00:50:35.012 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 68.9028ms
+[2024-05-25 00:50:35.119 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/_vs/browserLink - 200 null text/javascript; charset=UTF-8 135.4012ms
+[2024-05-25 00:50:35.261 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/v1/swagger.json - null null
+[2024-05-25 00:50:35.944 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 684.0324ms
+[2024-05-25 00:51:24.653 +01:00  INF]  Request starting HTTP/2 POST https://localhost:7065/api/Auth/register - application/json 54
+[2024-05-25 00:51:24.692 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.AuthController.Register (MiniSocialMediaFeed.API)'
+[2024-05-25 00:51:24.789 +01:00  INF]  Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MiniSocialMediaFeed.Application.Dtos.RequestDto.RegisterUserReqDto) on controller MiniSocialMediaFeed.API.Controllers.AuthController (MiniSocialMediaFeed.API).
+[2024-05-25 00:51:24.807 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.AuthController.Register (MiniSocialMediaFeed.API) in 8.7391ms
+[2024-05-25 00:51:24.810 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.AuthController.Register (MiniSocialMediaFeed.API)'
+[2024-05-25 00:51:24.817 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'MiniSocialMediaFeed.Application.Interfaces.IAuthService' while attempting to activate 'MiniSocialMediaFeed.API.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-05-25 00:51:24.868 +01:00  INF]  Request finished HTTP/2 POST https://localhost:7065/api/Auth/register - 500 null text/plain; charset=utf-8 215.5431ms
+[2024-05-25 00:52:31.956 +01:00  INF]  User profile is available. Using 'C:\Users\okpal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-25 00:52:32.381 +01:00  INF]  Now listening on: https://localhost:7065
+[2024-05-25 00:52:32.382 +01:00  INF]  Now listening on: http://localhost:5292
+[2024-05-25 00:52:32.384 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2024-05-25 00:52:32.384 +01:00  INF]  Hosting environment: Development
+[2024-05-25 00:52:32.384 +01:00  INF]  Content root path: C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.API
+[2024-05-25 00:52:32.900 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/index.html - null null
+[2024-05-25 00:52:33.402 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/index.html - 200 null text/html;charset=utf-8 490.5624ms
+[2024-05-25 00:52:33.407 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/_framework/aspnetcore-browser-refresh.js - null null
+[2024-05-25 00:52:33.413 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/_vs/browserLink - null null
+[2024-05-25 00:52:33.418 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 13.3758ms
+[2024-05-25 00:52:33.490 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/_vs/browserLink - 200 null text/javascript; charset=UTF-8 76.472ms
+[2024-05-25 00:52:33.560 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/v1/swagger.json - null null
+[2024-05-25 00:52:33.719 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 159.4262ms
+[2024-05-25 00:52:52.801 +01:00  INF]  Request starting HTTP/2 POST https://localhost:7065/api/Auth/register - application/json 54
+[2024-05-25 00:52:52.822 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.AuthController.Register (MiniSocialMediaFeed.API)'
+[2024-05-25 00:52:52.907 +01:00  INF]  Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MiniSocialMediaFeed.Application.Dtos.RequestDto.RegisterUserReqDto) on controller MiniSocialMediaFeed.API.Controllers.AuthController (MiniSocialMediaFeed.API).
+[2024-05-25 00:53:01.785 +01:00  INF] chuks Registering user with username: chuks
+[2024-05-25 00:53:04.737 +01:00  INF]  Executed DbCommand (156ms) [Parameters=[@__registerUserDto_Username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__registerUserDto_Username_0
+[2024-05-25 00:53:21.258 +01:00  INF]  Executed DbCommand (89ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([PasswordHash], [Username])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+[2024-05-25 00:53:39.361 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.AuthController.Register (MiniSocialMediaFeed.API) in 46445.876ms
+[2024-05-25 00:53:39.363 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.AuthController.Register (MiniSocialMediaFeed.API)'
+[2024-05-25 00:53:39.371 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+User -> UserDto
+MiniSocialMediaFeed.Domain.Entities.User -> MiniSocialMediaFeed.Application.Dtos.ResponseDto.UserDto
+   at lambda_method83(Closure, Object, UserDto, ResolutionContext)
+   at MiniSocialMediaFeed.Application.Services.AuthService.RegisterUserAsync(RegisterUserReqDto registerUserDto) in C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.Application\Services\AuthService.cs:line 52
+   at MiniSocialMediaFeed.API.Controllers.AuthController.Register(RegisterUserReqDto registerUserDto) in C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.API\Controllers\AuthController.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-05-25 00:53:39.438 +01:00  INF]  Request finished HTTP/2 POST https://localhost:7065/api/Auth/register - 500 null text/plain; charset=utf-8 46637.6425ms
+[2024-05-25 00:55:30.587 +01:00  INF]  User profile is available. Using 'C:\Users\okpal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-25 00:55:30.976 +01:00  INF]  Now listening on: https://localhost:7065
+[2024-05-25 00:55:30.978 +01:00  INF]  Now listening on: http://localhost:5292
+[2024-05-25 00:55:30.980 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2024-05-25 00:55:30.980 +01:00  INF]  Hosting environment: Development
+[2024-05-25 00:55:30.980 +01:00  INF]  Content root path: C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.API
+[2024-05-25 00:55:33.536 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/index.html - null null
+[2024-05-25 00:55:34.054 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/index.html - 200 null text/html;charset=utf-8 523.7173ms
+[2024-05-25 00:55:34.071 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/_framework/aspnetcore-browser-refresh.js - null null
+[2024-05-25 00:55:34.071 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/_vs/browserLink - null null
+[2024-05-25 00:55:34.096 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 25.1586ms
+[2024-05-25 00:55:34.146 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/_vs/browserLink - 200 null text/javascript; charset=UTF-8 75.2381ms
+[2024-05-25 00:55:34.208 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/v1/swagger.json - null null
+[2024-05-25 00:55:34.491 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 283.6923ms
+[2024-05-25 00:55:47.399 +01:00  INF]  Request starting HTTP/2 POST https://localhost:7065/api/Auth/register - application/json 50
+[2024-05-25 00:55:47.424 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.AuthController.Register (MiniSocialMediaFeed.API)'
+[2024-05-25 00:55:47.478 +01:00  INF]  Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MiniSocialMediaFeed.Application.Dtos.RequestDto.RegisterUserReqDto) on controller MiniSocialMediaFeed.API.Controllers.AuthController (MiniSocialMediaFeed.API).
+[2024-05-25 00:55:58.963 +01:00  INF] chuka Registering user with username: chuka
+[2024-05-25 00:56:03.699 +01:00  INF]  Executed DbCommand (291ms) [Parameters=[@__registerUserDto_Username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__registerUserDto_Username_0
+[2024-05-25 00:56:35.857 +01:00  INF]  Executed DbCommand (53ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([PasswordHash], [Username])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+[2024-05-25 00:56:37.896 +01:00  INF] chuka User chuka registered successfully.
+[2024-05-25 00:56:40.379 +01:00  INF]  Executing ObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[MiniSocialMediaFeed.Application.Dtos.ResponseDto.UserDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2024-05-25 00:56:40.402 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.AuthController.Register (MiniSocialMediaFeed.API) in 52915.8397ms
+[2024-05-25 00:56:40.403 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.AuthController.Register (MiniSocialMediaFeed.API)'
+[2024-05-25 00:56:40.417 +01:00  INF]  Request finished HTTP/2 POST https://localhost:7065/api/Auth/register - 201 null application/json; charset=utf-8 53018.3482ms
+[2024-05-25 00:57:18.026 +01:00  INF]  Request starting HTTP/2 POST https://localhost:7065/api/Auth/register - application/json 50
+[2024-05-25 00:57:18.032 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.AuthController.Register (MiniSocialMediaFeed.API)'
+[2024-05-25 00:57:18.032 +01:00  INF]  Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MiniSocialMediaFeed.Application.Dtos.RequestDto.RegisterUserReqDto) on controller MiniSocialMediaFeed.API.Controllers.AuthController (MiniSocialMediaFeed.API).
+[2024-05-25 00:57:28.161 +01:00  INF] chuks Registering user with username: chuks
+[2024-05-25 00:57:28.974 +01:00  INF]  Executed DbCommand (47ms) [Parameters=[@__registerUserDto_Username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__registerUserDto_Username_0
+[2024-05-25 00:57:34.430 +01:00  WRN] chuks Username chuks already exists.
+[2024-05-25 00:57:34.432 +01:00  INF]  Executing ObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[MiniSocialMediaFeed.Application.Dtos.ResponseDto.UserDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2024-05-25 00:57:34.432 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.AuthController.Register (MiniSocialMediaFeed.API) in 16399.8459ms
+[2024-05-25 00:57:34.433 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.AuthController.Register (MiniSocialMediaFeed.API)'
+[2024-05-25 00:57:34.433 +01:00  INF]  Request finished HTTP/2 POST https://localhost:7065/api/Auth/register - 409 null application/json; charset=utf-8 16407.2078ms
+[2024-05-25 00:58:24.390 +01:00  INF]  Request starting HTTP/2 POST https://localhost:7065/api/Auth/login - application/json 50
+[2024-05-25 00:58:24.391 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.AuthController.Login (MiniSocialMediaFeed.API)'
+[2024-05-25 00:58:24.643 +01:00  INF]  Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MiniSocialMediaFeed.Application.Dtos.RequestDto.LoginUserReqDto) on controller MiniSocialMediaFeed.API.Controllers.AuthController (MiniSocialMediaFeed.API).
+[2024-05-25 00:58:28.368 +01:00  INF] chuka User login attempt for username: chuka
+[2024-05-25 00:58:30.047 +01:00  INF]  Executed DbCommand (93ms) [Parameters=[@__loginUserDto_Username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__loginUserDto_Username_0
+[2024-05-25 00:59:00.465 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.AuthController.Login (MiniSocialMediaFeed.API) in 35821.5287ms
+[2024-05-25 00:59:00.467 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.AuthController.Login (MiniSocialMediaFeed.API)'
+[2024-05-25 00:59:00.474 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'HS256', the key size must be greater than: '256' bits, key has '168' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at MiniSocialMediaFeed.Application.Services.AuthService.GenerateJwtToken(User user) in C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.Application\Services\AuthService.cs:line 130
+   at MiniSocialMediaFeed.Application.Services.AuthService.LoginUserAsync(LoginUserReqDto loginUserDto) in C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.Application\Services\AuthService.cs:line 67
+   at MiniSocialMediaFeed.API.Controllers.AuthController.Login(LoginUserReqDto loginUserDto) in C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.API\Controllers\AuthController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-05-25 00:59:00.542 +01:00  INF]  Request finished HTTP/2 POST https://localhost:7065/api/Auth/login - 500 null text/plain; charset=utf-8 36152.0481ms
+[2024-05-25 00:59:17.914 +01:00  INF]  Request starting HTTP/2 POST https://localhost:7065/api/Auth/login - application/json 50
+[2024-05-25 00:59:17.914 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.AuthController.Login (MiniSocialMediaFeed.API)'
+[2024-05-25 00:59:17.914 +01:00  INF]  Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MiniSocialMediaFeed.Application.Dtos.RequestDto.LoginUserReqDto) on controller MiniSocialMediaFeed.API.Controllers.AuthController (MiniSocialMediaFeed.API).
+[2024-05-25 00:59:24.042 +01:00  INF] chuka User login attempt for username: chuka
+[2024-05-25 00:59:25.131 +01:00  INF]  Executed DbCommand (38ms) [Parameters=[@__loginUserDto_Username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__loginUserDto_Username_0
+[2024-05-25 01:00:33.352 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.AuthController.Login (MiniSocialMediaFeed.API) in 75437.9993ms
+[2024-05-25 01:00:33.353 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.AuthController.Login (MiniSocialMediaFeed.API)'
+[2024-05-25 01:00:33.355 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'HS256', the key size must be greater than: '256' bits, key has '168' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at MiniSocialMediaFeed.Application.Services.AuthService.GenerateJwtToken(User user) in C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.Application\Services\AuthService.cs:line 130
+   at MiniSocialMediaFeed.Application.Services.AuthService.LoginUserAsync(LoginUserReqDto loginUserDto) in C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.Application\Services\AuthService.cs:line 67
+   at MiniSocialMediaFeed.API.Controllers.AuthController.Login(LoginUserReqDto loginUserDto) in C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.API\Controllers\AuthController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-05-25 01:00:33.379 +01:00  INF]  Request finished HTTP/2 POST https://localhost:7065/api/Auth/login - 500 null text/plain; charset=utf-8 75465.2285ms
+[2024-05-25 01:11:44.125 +01:00  INF]  Request starting HTTP/1.1 POST https://localhost:7065/api/Auth/login - application/json 53
+[2024-05-25 01:11:44.126 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.AuthController.Login (MiniSocialMediaFeed.API)'
+[2024-05-25 01:11:44.126 +01:00  INF]  Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MiniSocialMediaFeed.Application.Dtos.RequestDto.LoginUserReqDto) on controller MiniSocialMediaFeed.API.Controllers.AuthController (MiniSocialMediaFeed.API).
+[2024-05-25 01:11:54.410 +01:00  INF] chuka User login attempt for username: chuka
+[2024-05-25 01:11:56.099 +01:00  INF]  Executed DbCommand (7ms) [Parameters=[@__loginUserDto_Username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__loginUserDto_Username_0
+[2024-05-25 01:12:15.243 +01:00  INF] chuka User chuka logged in successfully.
+[2024-05-25 01:12:15.254 +01:00  INF]  Executing ObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2024-05-25 01:12:15.267 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.AuthController.Login (MiniSocialMediaFeed.API) in 31141.3214ms
+[2024-05-25 01:12:15.268 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.AuthController.Login (MiniSocialMediaFeed.API)'
+[2024-05-25 01:12:15.268 +01:00  INF]  Request finished HTTP/1.1 POST https://localhost:7065/api/Auth/login - 200 null application/json; charset=utf-8 31143.5673ms
+[2024-05-25 01:16:00.605 +01:00  INF]  User profile is available. Using 'C:\Users\okpal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-25 01:16:01.211 +01:00  INF]  Now listening on: https://localhost:7065
+[2024-05-25 01:16:01.214 +01:00  INF]  Now listening on: http://localhost:5292
+[2024-05-25 01:16:01.221 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2024-05-25 01:16:01.222 +01:00  INF]  Hosting environment: Development
+[2024-05-25 01:16:01.222 +01:00  INF]  Content root path: C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.API
+[2024-05-25 01:16:05.920 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/index.html - null null
+[2024-05-25 01:16:06.829 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/_vs/browserLink - null null
+[2024-05-25 01:16:06.829 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/_framework/aspnetcore-browser-refresh.js - null null
+[2024-05-25 01:16:06.831 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/index.html - 200 null text/html;charset=utf-8 928.7323ms
+[2024-05-25 01:16:06.843 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 14.3667ms
+[2024-05-25 01:16:07.019 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/_vs/browserLink - 200 null text/javascript; charset=UTF-8 191.2213ms
+[2024-05-25 01:16:07.254 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/v1/swagger.json - null null
+[2024-05-25 01:16:07.635 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 382.5615ms
+[2024-05-25 01:18:25.420 +01:00  INF]  Request starting HTTP/1.1 POST https://localhost:7065/api/Posts - application/json 48
+[2024-05-25 01:18:25.441 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API)'
+[2024-05-25 01:18:25.510 +01:00  INF]  Route matched with {action = "CreatePost", controller = "Posts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePost(MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto) on controller MiniSocialMediaFeed.API.Controllers.PostsController (MiniSocialMediaFeed.API).
+[2024-05-25 01:18:30.790 +01:00  INF]  Creating post for user ID: 2
+[2024-05-25 01:18:38.366 +01:00  INF]  Executed DbCommand (270ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Posts] ([Content], [CreatedAt], [Likes], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+[2024-05-25 01:18:40.991 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API) in 15472.5524ms
+[2024-05-25 01:18:40.993 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API)'
+[2024-05-25 01:18:41.005 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Post -> PostReqDto
+MiniSocialMediaFeed.Domain.Entities.Post -> MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto
+   at lambda_method80(Closure, Object, PostReqDto, ResolutionContext)
+   at MiniSocialMediaFeed.Application.Services.PostService.CreatePostAsync(PostReqDto createPostDto) in C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.Application\Services\PostService.cs:line 33
+   at MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost(PostReqDto post) in C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.API\Controllers\PostsController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-05-25 01:18:41.189 +01:00  INF]  Request finished HTTP/1.1 POST https://localhost:7065/api/Posts - 500 null text/plain; charset=utf-8 15747.5565ms
+[2024-05-25 01:22:05.615 +01:00  INF]  Request starting HTTP/1.1 POST https://localhost:7065/api/Posts - application/json 48
+[2024-05-25 01:22:05.618 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API)'
+[2024-05-25 01:22:05.619 +01:00  INF]  Route matched with {action = "CreatePost", controller = "Posts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePost(MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto) on controller MiniSocialMediaFeed.API.Controllers.PostsController (MiniSocialMediaFeed.API).
+[2024-05-25 01:22:09.001 +01:00  INF]  Creating post for user ID: 2
+[2024-05-25 01:22:09.033 +01:00  INF]  Executed DbCommand (16ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Posts] ([Content], [CreatedAt], [Likes], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+[2024-05-25 01:22:59.092 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API) in 53472.9196ms
+[2024-05-25 01:22:59.093 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API)'
+[2024-05-25 01:22:59.096 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Post -> PostReqDto
+MiniSocialMediaFeed.Domain.Entities.Post -> MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto
+   at lambda_method80(Closure, Object, PostReqDto, ResolutionContext)
+   at MiniSocialMediaFeed.Application.Services.PostService.CreatePostAsync(PostReqDto createPostDto) in C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.Application\Services\PostService.cs:line 33
+   at MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost(PostReqDto post) in C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.API\Controllers\PostsController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-05-25 01:22:59.112 +01:00  INF]  Request finished HTTP/1.1 POST https://localhost:7065/api/Posts - 500 null text/plain; charset=utf-8 53498.0976ms
+[2024-05-25 01:30:09.242 +01:00  INF]  User profile is available. Using 'C:\Users\okpal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-25 01:30:09.973 +01:00  INF]  Now listening on: https://localhost:7065
+[2024-05-25 01:30:10.016 +01:00  INF]  Now listening on: http://localhost:5292
+[2024-05-25 01:30:10.021 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2024-05-25 01:30:10.022 +01:00  INF]  Hosting environment: Development
+[2024-05-25 01:30:10.022 +01:00  INF]  Content root path: C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.API
+[2024-05-25 01:30:10.559 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/index.html - null null
+[2024-05-25 01:30:11.323 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/_framework/aspnetcore-browser-refresh.js - null null
+[2024-05-25 01:30:11.328 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/_vs/browserLink - null null
+[2024-05-25 01:30:11.342 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 17.7654ms
+[2024-05-25 01:30:11.342 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/index.html - 200 null text/html;charset=utf-8 810.7247ms
+[2024-05-25 01:30:11.402 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/_vs/browserLink - 200 null text/javascript; charset=UTF-8 74.6876ms
+[2024-05-25 01:30:11.467 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/v1/swagger.json - null null
+[2024-05-25 01:30:11.652 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 185.5556ms
+[2024-05-25 01:30:17.481 +01:00  INF]  Request starting HTTP/1.1 POST https://localhost:7065/api/Posts - application/json 48
+[2024-05-25 01:30:17.502 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API)'
+[2024-05-25 01:30:17.586 +01:00  INF]  Route matched with {action = "CreatePost", controller = "Posts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePost(MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto) on controller MiniSocialMediaFeed.API.Controllers.PostsController (MiniSocialMediaFeed.API).
+[2024-05-25 01:30:24.711 +01:00  INF]  Creating post for user ID: 2
+[2024-05-25 01:30:25.812 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API) in 8215.3086ms
+[2024-05-25 01:30:25.847 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API)'
+[2024-05-25 01:30:25.907 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+PostReqDto -> Post
+MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto -> MiniSocialMediaFeed.Domain.Entities.Post
+   at lambda_method13(Closure, Object, Post, ResolutionContext)
+   at MiniSocialMediaFeed.Application.Services.PostService.CreatePostAsync(PostReqDto createPostDto) in C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.Application\Services\PostService.cs:line 27
+   at MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost(PostReqDto post) in C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.API\Controllers\PostsController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-05-25 01:30:26.380 +01:00  INF]  Request finished HTTP/1.1 POST https://localhost:7065/api/Posts - 500 null text/plain; charset=utf-8 8899.0416ms
+[2024-05-25 01:31:06.758 +01:00  INF]  Request starting HTTP/1.1 POST https://localhost:7065/api/Posts - application/json 48
+[2024-05-25 01:31:06.761 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API)'
+[2024-05-25 01:31:06.761 +01:00  INF]  Route matched with {action = "CreatePost", controller = "Posts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePost(MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto) on controller MiniSocialMediaFeed.API.Controllers.PostsController (MiniSocialMediaFeed.API).
+[2024-05-25 01:31:09.266 +01:00  INF]  Creating post for user ID: 2
+[2024-05-25 01:31:20.439 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API) in 13677.5187ms
+[2024-05-25 01:31:20.440 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API)'
+[2024-05-25 01:31:20.442 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+PostReqDto -> Post
+MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto -> MiniSocialMediaFeed.Domain.Entities.Post
+   at lambda_method13(Closure, Object, Post, ResolutionContext)
+   at MiniSocialMediaFeed.Application.Services.PostService.CreatePostAsync(PostReqDto createPostDto) in C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.Application\Services\PostService.cs:line 27
+   at MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost(PostReqDto post) in C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.API\Controllers\PostsController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-05-25 01:31:20.446 +01:00  INF]  Request finished HTTP/1.1 POST https://localhost:7065/api/Posts - 500 null text/plain; charset=utf-8 13688.1375ms
+[2024-05-25 01:31:51.780 +01:00  INF]  User profile is available. Using 'C:\Users\okpal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-25 01:31:52.468 +01:00  INF]  Now listening on: https://localhost:7065
+[2024-05-25 01:31:52.468 +01:00  INF]  Now listening on: http://localhost:5292
+[2024-05-25 01:31:52.475 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2024-05-25 01:31:52.476 +01:00  INF]  Hosting environment: Development
+[2024-05-25 01:31:52.476 +01:00  INF]  Content root path: C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.API
+[2024-05-25 01:31:53.088 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/index.html - null null
+[2024-05-25 01:31:53.568 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/index.html - 200 null text/html;charset=utf-8 486.588ms
+[2024-05-25 01:31:53.606 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/_framework/aspnetcore-browser-refresh.js - null null
+[2024-05-25 01:31:53.606 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/_vs/browserLink - null null
+[2024-05-25 01:31:53.616 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 9.9519ms
+[2024-05-25 01:31:53.672 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.0676ms
+[2024-05-25 01:31:53.727 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/v1/swagger.json - null null
+[2024-05-25 01:31:53.929 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 202.9032ms
+[2024-05-25 01:31:57.814 +01:00  INF]  Request starting HTTP/1.1 POST https://localhost:7065/api/Posts - application/json 48
+[2024-05-25 01:31:57.836 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API)'
+[2024-05-25 01:31:57.886 +01:00  INF]  Route matched with {action = "CreatePost", controller = "Posts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePost(MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto) on controller MiniSocialMediaFeed.API.Controllers.PostsController (MiniSocialMediaFeed.API).
+[2024-05-25 01:32:03.344 +01:00  INF]  Creating post for user ID: 2
+[2024-05-25 01:32:11.586 +01:00  INF]  Executed DbCommand (304ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Posts] ([Content], [CreatedAt], [Likes], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+[2024-05-25 01:32:13.865 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API) in 15969.5615ms
+[2024-05-25 01:32:13.870 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API)'
+[2024-05-25 01:32:13.880 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Post -> PostReqDto
+MiniSocialMediaFeed.Domain.Entities.Post -> MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto
+   at lambda_method80(Closure, Object, PostReqDto, ResolutionContext)
+   at MiniSocialMediaFeed.Application.Services.PostService.CreatePostAsync(PostReqDto createPostDto) in C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.Application\Services\PostService.cs:line 33
+   at MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost(PostReqDto post) in C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.API\Controllers\PostsController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-05-25 01:32:13.979 +01:00  INF]  Request finished HTTP/1.1 POST https://localhost:7065/api/Posts - 500 null text/plain; charset=utf-8 16165.5946ms
+[2024-05-25 01:37:59.855 +01:00  INF]  User profile is available. Using 'C:\Users\okpal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-25 01:38:00.421 +01:00  INF]  Now listening on: https://localhost:7065
+[2024-05-25 01:38:00.421 +01:00  INF]  Now listening on: http://localhost:5292
+[2024-05-25 01:38:00.425 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2024-05-25 01:38:00.425 +01:00  INF]  Hosting environment: Development
+[2024-05-25 01:38:00.425 +01:00  INF]  Content root path: C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.API
+[2024-05-25 01:38:01.007 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/index.html - null null
+[2024-05-25 01:38:01.513 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/index.html - 200 null text/html;charset=utf-8 514.1083ms
+[2024-05-25 01:38:01.529 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/_vs/browserLink - null null
+[2024-05-25 01:38:01.529 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/_framework/aspnetcore-browser-refresh.js - null null
+[2024-05-25 01:38:01.539 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 9.4649ms
+[2024-05-25 01:38:01.615 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/_vs/browserLink - 200 null text/javascript; charset=UTF-8 85.5338ms
+[2024-05-25 01:38:01.670 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/v1/swagger.json - null null
+[2024-05-25 01:38:01.839 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 169.848ms
+[2024-05-25 01:38:07.201 +01:00  INF]  Request starting HTTP/1.1 POST https://localhost:7065/api/Posts - application/json 48
+[2024-05-25 01:38:07.232 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API)'
+[2024-05-25 01:38:07.335 +01:00  INF]  Route matched with {action = "CreatePost", controller = "Posts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePost(MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto) on controller MiniSocialMediaFeed.API.Controllers.PostsController (MiniSocialMediaFeed.API).
+[2024-05-25 01:38:15.037 +01:00  INF]  Creating post for user ID: 2
+[2024-05-25 01:38:19.669 +01:00  INF]  Executed DbCommand (340ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Posts] ([Content], [CreatedAt], [Likes], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+[2024-05-25 01:38:27.221 +01:00  INF]  Post created successfully for user ID: 2
+[2024-05-25 01:38:29.937 +01:00  INF]  Executing ObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2024-05-25 01:38:29.965 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API) in 22613.6911ms
+[2024-05-25 01:38:29.967 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API)'
+[2024-05-25 01:38:29.991 +01:00  INF]  Request finished HTTP/1.1 POST https://localhost:7065/api/Posts - 201 null application/json; charset=utf-8 22790.9093ms
+[2024-05-25 01:41:32.085 +01:00  INF]  Request starting HTTP/1.1 GET https://localhost:7065/api/feed?userId=2&pageNumber=1&pageSize=10 - null null
+[2024-05-25 01:41:32.089 +01:00  INF]  Request finished HTTP/1.1 GET https://localhost:7065/api/feed?userId=2&pageNumber=1&pageSize=10 - 404 0 null 3.1065ms
+[2024-05-25 01:41:32.089 +01:00  INF]  Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7065/api/feed, Response status code: 404
+[2024-05-25 01:43:46.098 +01:00  INF]  Request starting HTTP/1.1 GET https://localhost:7065/api/Posts/feed?userId=2&pageNumber=1&pageSize=10 - null null
+[2024-05-25 01:43:46.099 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API)'
+[2024-05-25 01:43:46.129 +01:00  INF]  Route matched with {action = "GetFeed", controller = "Posts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFeed(Int32, Int32, Int32) on controller MiniSocialMediaFeed.API.Controllers.PostsController (MiniSocialMediaFeed.API).
+[2024-05-25 01:43:54.219 +01:00  INF]  Retrieving feed for user ID: 2
+[2024-05-25 01:43:55.987 +01:00  INF]  Executed DbCommand (14ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[Id], [f].[FolloweeId], [f].[FollowerId]
+FROM [Follows] AS [f]
+WHERE [f].[FollowerId] = @__userId_0
+[2024-05-25 01:44:08.969 +01:00  INF]  Executed DbCommand (73ms) [Parameters=[@__followingIds_0='?' (Size = 4000), @__userId_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Content], [p].[CreatedAt], [p].[Likes], [p].[UserId]
+FROM [Posts] AS [p]
+WHERE [p].[UserId] IN (
+    SELECT [f].[value]
+    FROM OPENJSON(@__followingIds_0) WITH ([value] int '$') AS [f]
+) OR [p].[UserId] = @__userId_1
+ORDER BY [p].[Likes] DESC
+OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+[2024-05-25 01:44:14.071 +01:00  INF]  Feed retrieved successfully for user ID: 2
+[2024-05-25 01:44:14.073 +01:00  INF]  Executing OkObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[System.Collections.Generic.IEnumerable`1[[MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2024-05-25 01:44:14.077 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API) in 27947.9803ms
+[2024-05-25 01:44:14.078 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API)'
+[2024-05-25 01:44:14.078 +01:00  INF]  Request finished HTTP/1.1 GET https://localhost:7065/api/Posts/feed?userId=2&pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 27980.4185ms
+[2024-05-25 01:44:29.038 +01:00  INF]  Request starting HTTP/1.1 GET https://localhost:7065/api/Posts/feed?userId=2&pageNumber=1&pageSize=10 - null null
+[2024-05-25 01:44:29.040 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API)'
+[2024-05-25 01:44:29.040 +01:00  INF]  Route matched with {action = "GetFeed", controller = "Posts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFeed(Int32, Int32, Int32) on controller MiniSocialMediaFeed.API.Controllers.PostsController (MiniSocialMediaFeed.API).
+[2024-05-25 01:44:35.403 +01:00  INF]  Retrieving feed for user ID: 2
+[2024-05-25 01:44:36.669 +01:00  INF]  Executed DbCommand (33ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[Id], [f].[FolloweeId], [f].[FollowerId]
+FROM [Follows] AS [f]
+WHERE [f].[FollowerId] = @__userId_0
+[2024-05-25 01:44:49.324 +01:00  INF]  Executed DbCommand (35ms) [Parameters=[@__followingIds_0='?' (Size = 4000), @__userId_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Content], [p].[CreatedAt], [p].[Likes], [p].[UserId]
+FROM [Posts] AS [p]
+WHERE [p].[UserId] IN (
+    SELECT [f].[value]
+    FROM OPENJSON(@__followingIds_0) WITH ([value] int '$') AS [f]
+) OR [p].[UserId] = @__userId_1
+ORDER BY [p].[Likes] DESC
+OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+[2024-05-25 01:45:03.607 +01:00  INF]  Feed retrieved successfully for user ID: 2
+[2024-05-25 01:45:03.607 +01:00  INF]  Executing OkObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[System.Collections.Generic.IEnumerable`1[[MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2024-05-25 01:45:03.608 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API) in 34567.6917ms
+[2024-05-25 01:45:03.608 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API)'
+[2024-05-25 01:45:03.609 +01:00  INF]  Request finished HTTP/1.1 GET https://localhost:7065/api/Posts/feed?userId=2&pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 34570.5066ms
+[2024-05-25 01:48:30.126 +01:00  INF]  Request starting HTTP/1.1 GET https://localhost:7065/api/follows/1/follow/2 - null null
+[2024-05-25 01:48:30.127 +01:00  INF]  Executing endpoint '405 HTTP Method Not Supported'
+[2024-05-25 01:48:30.129 +01:00  INF]  Executed endpoint '405 HTTP Method Not Supported'
+[2024-05-25 01:48:30.129 +01:00  INF]  Request finished HTTP/1.1 GET https://localhost:7065/api/follows/1/follow/2 - 405 0 null 4.0502ms
+[2024-05-25 01:48:55.437 +01:00  INF]  Request starting HTTP/1.1 GET https://localhost:7065/api/Follows/1/follow/2 - null null
+[2024-05-25 01:48:55.439 +01:00  INF]  Executing endpoint '405 HTTP Method Not Supported'
+[2024-05-25 01:48:55.439 +01:00  INF]  Executed endpoint '405 HTTP Method Not Supported'
+[2024-05-25 01:48:55.440 +01:00  INF]  Request finished HTTP/1.1 GET https://localhost:7065/api/Follows/1/follow/2 - 405 0 null 2.8983ms
+[2024-05-25 01:49:24.726 +01:00  INF]  Request starting HTTP/1.1 GET https://localhost:7065/api/Follows/1/follow/2 - null null
+[2024-05-25 01:49:24.735 +01:00  INF]  Executing endpoint '405 HTTP Method Not Supported'
+[2024-05-25 01:49:24.737 +01:00  INF]  Executed endpoint '405 HTTP Method Not Supported'
+[2024-05-25 01:49:24.737 +01:00  INF]  Request finished HTTP/1.1 GET https://localhost:7065/api/Follows/1/follow/2 - 405 0 null 11.0824ms
+[2024-05-25 01:49:58.615 +01:00  INF]  User profile is available. Using 'C:\Users\okpal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-25 01:49:59.062 +01:00  INF]  Now listening on: https://localhost:7065
+[2024-05-25 01:49:59.065 +01:00  INF]  Now listening on: http://localhost:5292
+[2024-05-25 01:49:59.071 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2024-05-25 01:49:59.073 +01:00  INF]  Hosting environment: Development
+[2024-05-25 01:49:59.073 +01:00  INF]  Content root path: C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.API
+[2024-05-25 01:50:01.811 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/index.html - null null
+[2024-05-25 01:50:02.287 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/_vs/browserLink - null null
+[2024-05-25 01:50:02.292 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/index.html - 200 null text/html;charset=utf-8 484.8601ms
+[2024-05-25 01:50:02.287 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/_framework/aspnetcore-browser-refresh.js - null null
+[2024-05-25 01:50:02.351 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 63.8854ms
+[2024-05-25 01:50:02.466 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/_vs/browserLink - 200 null text/javascript; charset=UTF-8 178.8964ms
+[2024-05-25 01:50:02.613 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/v1/swagger.json - null null
+[2024-05-25 01:50:02.829 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 216.9084ms
+[2024-05-25 01:50:05.899 +01:00  INF]  Request starting HTTP/1.1 GET https://localhost:7065/api/Follows/1/follow/2 - null null
+[2024-05-25 01:50:05.919 +01:00  INF]  Executing endpoint '405 HTTP Method Not Supported'
+[2024-05-25 01:50:05.920 +01:00  INF]  Executed endpoint '405 HTTP Method Not Supported'
+[2024-05-25 01:50:05.937 +01:00  INF]  Request finished HTTP/1.1 GET https://localhost:7065/api/Follows/1/follow/2 - 405 0 null 37.4021ms
+[2024-05-25 01:51:13.810 +01:00  INF]  Request starting HTTP/1.1 POST https://localhost:7065/api/Follows/1/follow/2 - null 0
+[2024-05-25 01:51:13.815 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.FollowsController.FollowUser (MiniSocialMediaFeed.API)'
+[2024-05-25 01:51:13.909 +01:00  INF]  Route matched with {action = "FollowUser", controller = "Follows"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FollowUser(Int32, Int32) on controller MiniSocialMediaFeed.API.Controllers.FollowsController (MiniSocialMediaFeed.API).
+[2024-05-25 01:51:13.928 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.FollowsController.FollowUser (MiniSocialMediaFeed.API) in 9.1669ms
+[2024-05-25 01:51:13.937 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.FollowsController.FollowUser (MiniSocialMediaFeed.API)'
+[2024-05-25 01:51:13.951 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'MiniSocialMediaFeed.Application.Services.FollowService' while attempting to activate 'MiniSocialMediaFeed.API.Controllers.FollowsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-05-25 01:51:14.007 +01:00  INF]  Request finished HTTP/1.1 POST https://localhost:7065/api/Follows/1/follow/2 - 500 null text/plain; charset=utf-8 196.5899ms
+[2024-05-25 01:53:48.543 +01:00  INF]  User profile is available. Using 'C:\Users\okpal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-25 01:53:48.865 +01:00  INF]  Now listening on: https://localhost:7065
+[2024-05-25 01:53:48.867 +01:00  INF]  Now listening on: http://localhost:5292
+[2024-05-25 01:53:48.869 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2024-05-25 01:53:48.870 +01:00  INF]  Hosting environment: Development
+[2024-05-25 01:53:48.870 +01:00  INF]  Content root path: C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.API
+[2024-05-25 01:53:50.250 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/index.html - null null
+[2024-05-25 01:53:50.712 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/index.html - 200 null text/html;charset=utf-8 479.3198ms
+[2024-05-25 01:53:50.722 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/_framework/aspnetcore-browser-refresh.js - null null
+[2024-05-25 01:53:50.722 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/_vs/browserLink - null null
+[2024-05-25 01:53:50.739 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 16.349ms
+[2024-05-25 01:53:50.784 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.4264ms
+[2024-05-25 01:53:50.839 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/v1/swagger.json - null null
+[2024-05-25 01:53:50.997 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 158.7686ms
+[2024-05-25 01:54:06.049 +01:00  INF]  Request starting HTTP/1.1 POST https://localhost:7065/api/Follows/1/follow/2 - null 0
+[2024-05-25 01:54:06.078 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.FollowsController.FollowUser (MiniSocialMediaFeed.API)'
+[2024-05-25 01:54:06.214 +01:00  INF]  Route matched with {action = "FollowUser", controller = "Follows"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FollowUser(Int32, Int32) on controller MiniSocialMediaFeed.API.Controllers.FollowsController (MiniSocialMediaFeed.API).
+[2024-05-25 01:54:18.053 +01:00  INF]  User ID: 1 attempting to follow user ID: 2
+[2024-05-25 01:54:21.575 +01:00  INF]  Executed DbCommand (175ms) [Parameters=[@__followerId_0='?' (DbType = Int32), @__followeeId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[Id], [f].[FolloweeId], [f].[FollowerId]
+FROM [Follows] AS [f]
+WHERE [f].[FollowerId] = @__followerId_0 AND [f].[FolloweeId] = @__followeeId_1
+[2024-05-25 01:54:43.726 +01:00  INF]  Executed DbCommand (14ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Follows] ([FolloweeId], [FollowerId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+[2024-05-25 01:54:53.822 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.FollowsController.FollowUser (MiniSocialMediaFeed.API) in 47598.4019ms
+[2024-05-25 01:54:53.824 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.FollowsController.FollowUser (MiniSocialMediaFeed.API)'
+[2024-05-25 01:54:53.831 +01:00  ERR]  An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Follow -> FollowRespDto
+MiniSocialMediaFeed.Domain.Entities.Follow -> MiniSocialMediaFeed.Application.Dtos.ResponseDto.FollowRespDto
+   at lambda_method64(Closure, Object, FollowRespDto, ResolutionContext)
+   at MiniSocialMediaFeed.Application.Services.FollowService.FollowUserAsync(Int32 followerId, Int32 followeeId) in C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.Application\Services\FollowService.cs:line 42
+   at MiniSocialMediaFeed.API.Controllers.FollowsController.FollowUser(Int32 followerId, Int32 followeeId) in C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.API\Controllers\FollowsController.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-05-25 01:54:53.898 +01:00  INF]  Request finished HTTP/1.1 POST https://localhost:7065/api/Follows/1/follow/2 - 500 null text/plain; charset=utf-8 47848.2631ms
+[2024-05-25 01:56:02.315 +01:00  INF]  User profile is available. Using 'C:\Users\okpal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-25 01:56:02.805 +01:00  INF]  Now listening on: https://localhost:7065
+[2024-05-25 01:56:02.806 +01:00  INF]  Now listening on: http://localhost:5292
+[2024-05-25 01:56:02.808 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2024-05-25 01:56:02.808 +01:00  INF]  Hosting environment: Development
+[2024-05-25 01:56:02.809 +01:00  INF]  Content root path: C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.API
+[2024-05-25 01:56:05.225 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/index.html - null null
+[2024-05-25 01:56:05.693 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/index.html - 200 null text/html;charset=utf-8 474.0182ms
+[2024-05-25 01:56:05.722 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/_framework/aspnetcore-browser-refresh.js - null null
+[2024-05-25 01:56:05.722 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/_vs/browserLink - null null
+[2024-05-25 01:56:05.734 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 12.1074ms
+[2024-05-25 01:56:05.892 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/_vs/browserLink - 200 null text/javascript; charset=UTF-8 169.8094ms
+[2024-05-25 01:56:05.953 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/v1/swagger.json - null null
+[2024-05-25 01:56:06.101 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 147.4124ms
+[2024-05-25 01:56:10.229 +01:00  INF]  Request starting HTTP/1.1 POST https://localhost:7065/api/Follows/1/follow/2 - null 0
+[2024-05-25 01:56:10.249 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.FollowsController.FollowUser (MiniSocialMediaFeed.API)'
+[2024-05-25 01:56:10.332 +01:00  INF]  Route matched with {action = "FollowUser", controller = "Follows"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FollowUser(Int32, Int32) on controller MiniSocialMediaFeed.API.Controllers.FollowsController (MiniSocialMediaFeed.API).
+[2024-05-25 01:56:17.276 +01:00  INF]  User ID: 1 attempting to follow user ID: 2
+[2024-05-25 01:56:21.228 +01:00  INF]  Executed DbCommand (124ms) [Parameters=[@__followerId_0='?' (DbType = Int32), @__followeeId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[Id], [f].[FolloweeId], [f].[FollowerId]
+FROM [Follows] AS [f]
+WHERE [f].[FollowerId] = @__followerId_0 AND [f].[FolloweeId] = @__followeeId_1
+[2024-05-25 01:56:25.197 +01:00  WRN]  User ID: 1 is already following user ID: 2
+[2024-05-25 01:56:25.223 +01:00  INF]  Executing ObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[MiniSocialMediaFeed.Application.Dtos.ResponseDto.FollowRespDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2024-05-25 01:56:25.246 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.FollowsController.FollowUser (MiniSocialMediaFeed.API) in 14901.788ms
+[2024-05-25 01:56:25.247 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.FollowsController.FollowUser (MiniSocialMediaFeed.API)'
+[2024-05-25 01:56:25.263 +01:00  INF]  Request finished HTTP/1.1 POST https://localhost:7065/api/Follows/1/follow/2 - 409 null application/json; charset=utf-8 15034.5883ms
+[2024-05-25 01:56:41.837 +01:00  INF]  Request starting HTTP/1.1 POST https://localhost:7065/api/Follows/2/follow/1 - null 0
+[2024-05-25 01:56:41.840 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.FollowsController.FollowUser (MiniSocialMediaFeed.API)'
+[2024-05-25 01:56:41.841 +01:00  INF]  Route matched with {action = "FollowUser", controller = "Follows"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FollowUser(Int32, Int32) on controller MiniSocialMediaFeed.API.Controllers.FollowsController (MiniSocialMediaFeed.API).
+[2024-05-25 01:56:46.507 +01:00  INF]  User ID: 2 attempting to follow user ID: 1
+[2024-05-25 01:56:47.675 +01:00  INF]  Executed DbCommand (39ms) [Parameters=[@__followerId_0='?' (DbType = Int32), @__followeeId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[Id], [f].[FolloweeId], [f].[FollowerId]
+FROM [Follows] AS [f]
+WHERE [f].[FollowerId] = @__followerId_0 AND [f].[FolloweeId] = @__followeeId_1
+[2024-05-25 01:56:52.503 +01:00  INF]  Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Follows] ([FolloweeId], [FollowerId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+[2024-05-25 01:56:54.835 +01:00  INF]  User ID: 2 successfully followed user ID: 1
+[2024-05-25 01:56:58.721 +01:00  INF]  Executing ObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[MiniSocialMediaFeed.Application.Dtos.ResponseDto.FollowRespDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2024-05-25 01:56:58.723 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.FollowsController.FollowUser (MiniSocialMediaFeed.API) in 16881.5726ms
+[2024-05-25 01:56:58.723 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.FollowsController.FollowUser (MiniSocialMediaFeed.API)'
+[2024-05-25 01:56:58.723 +01:00  INF]  Request finished HTTP/1.1 POST https://localhost:7065/api/Follows/2/follow/1 - 200 null application/json; charset=utf-8 16886.7342ms
+[2024-05-25 01:59:29.843 +01:00  INF]  Request starting HTTP/1.1 GET https://localhost:7065/api/Follows/2/followers - null null
+[2024-05-25 01:59:29.844 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.FollowsController.GetFollowers (MiniSocialMediaFeed.API)'
+[2024-05-25 01:59:29.853 +01:00  INF]  Route matched with {action = "GetFollowers", controller = "Follows"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFollowers(Int32) on controller MiniSocialMediaFeed.API.Controllers.FollowsController (MiniSocialMediaFeed.API).
+[2024-05-25 01:59:34.517 +01:00  INF]  Retrieving followers for user ID: 2
+[2024-05-25 01:59:35.431 +01:00  INF]  Executed DbCommand (42ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[Id], [f].[FolloweeId], [f].[FollowerId]
+FROM [Follows] AS [f]
+WHERE [f].[FolloweeId] = @__userId_0
+[2024-05-25 01:59:47.360 +01:00  INF]  Followers retrieved successfully for user ID: 2
+[2024-05-25 01:59:49.239 +01:00  INF]  Executing ObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[System.Collections.Generic.IEnumerable`1[[MiniSocialMediaFeed.Application.Dtos.ResponseDto.FollowRespDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2024-05-25 01:59:49.243 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.FollowsController.GetFollowers (MiniSocialMediaFeed.API) in 19389.3778ms
+[2024-05-25 01:59:49.243 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.FollowsController.GetFollowers (MiniSocialMediaFeed.API)'
+[2024-05-25 01:59:49.244 +01:00  INF]  Request finished HTTP/1.1 GET https://localhost:7065/api/Follows/2/followers - 200 null application/json; charset=utf-8 19400.4012ms
+[2024-05-25 02:00:57.422 +01:00  INF]  Request starting HTTP/1.1 GET https://localhost:7065/api/Follows/2/followers - null null
+[2024-05-25 02:00:57.422 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.FollowsController.GetFollowers (MiniSocialMediaFeed.API)'
+[2024-05-25 02:00:57.423 +01:00  INF]  Route matched with {action = "GetFollowers", controller = "Follows"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFollowers(Int32) on controller MiniSocialMediaFeed.API.Controllers.FollowsController (MiniSocialMediaFeed.API).
+[2024-05-25 02:01:00.036 +01:00  INF]  Retrieving followers for user ID: 2
+[2024-05-25 02:01:00.424 +01:00  INF]  Executed DbCommand (386ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[Id], [f].[FolloweeId], [f].[FollowerId]
+FROM [Follows] AS [f]
+WHERE [f].[FolloweeId] = @__userId_0
+[2024-05-25 02:01:00.428 +01:00  INF]  Followers retrieved successfully for user ID: 2
+[2024-05-25 02:01:00.431 +01:00  INF]  Executing ObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[System.Collections.Generic.IEnumerable`1[[MiniSocialMediaFeed.Application.Dtos.ResponseDto.FollowRespDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2024-05-25 02:01:00.431 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.FollowsController.GetFollowers (MiniSocialMediaFeed.API) in 3008.1972ms
+[2024-05-25 02:01:00.431 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.FollowsController.GetFollowers (MiniSocialMediaFeed.API)'
+[2024-05-25 02:01:00.432 +01:00  INF]  Request finished HTTP/1.1 GET https://localhost:7065/api/Follows/2/followers - 200 null application/json; charset=utf-8 3010.291ms
+[2024-05-25 02:01:55.200 +01:00  INF]  Request starting HTTP/1.1 GET https://localhost:7065/api/Follows/2/following - null null
+[2024-05-25 02:01:55.201 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.FollowsController.GetFollowing (MiniSocialMediaFeed.API)'
+[2024-05-25 02:01:55.225 +01:00  INF]  Route matched with {action = "GetFollowing", controller = "Follows"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFollowing(Int32) on controller MiniSocialMediaFeed.API.Controllers.FollowsController (MiniSocialMediaFeed.API).
+[2024-05-25 02:01:55.231 +01:00  INF]  Retrieving following for user ID: 2
+[2024-05-25 02:01:55.243 +01:00  INF]  Executed DbCommand (6ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[Id], [f].[FolloweeId], [f].[FollowerId]
+FROM [Follows] AS [f]
+WHERE [f].[FollowerId] = @__userId_0
+[2024-05-25 02:01:55.244 +01:00  INF]  Following retrieved successfully for user ID: 2
+[2024-05-25 02:01:55.244 +01:00  INF]  Executing ObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[System.Collections.Generic.IEnumerable`1[[MiniSocialMediaFeed.Application.Dtos.ResponseDto.FollowRespDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2024-05-25 02:01:55.245 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.FollowsController.GetFollowing (MiniSocialMediaFeed.API) in 20.077ms
+[2024-05-25 02:01:55.245 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.FollowsController.GetFollowing (MiniSocialMediaFeed.API)'
+[2024-05-25 02:01:55.246 +01:00  INF]  Request finished HTTP/1.1 GET https://localhost:7065/api/Follows/2/following - 200 null application/json; charset=utf-8 46.358ms
+[2024-05-25 02:04:09.139 +01:00  INF]  Request starting HTTP/1.1 POST https://localhost:7065/api/Auth/register - application/json 53
+[2024-05-25 02:04:09.141 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.AuthController.Register (MiniSocialMediaFeed.API)'
+[2024-05-25 02:04:09.162 +01:00  INF]  Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MiniSocialMediaFeed.Application.Dtos.RequestDto.RegisterUserReqDto) on controller MiniSocialMediaFeed.API.Controllers.AuthController (MiniSocialMediaFeed.API).
+[2024-05-25 02:04:12.353 +01:00  INF] ebuka Registering user with username: ebuka
+[2024-05-25 02:04:12.375 +01:00  INF]  Executed DbCommand (7ms) [Parameters=[@__registerUserDto_Username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__registerUserDto_Username_0
+[2024-05-25 02:04:12.480 +01:00  INF]  Executed DbCommand (17ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([PasswordHash], [Username])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+[2024-05-25 02:04:12.488 +01:00  INF] ebuka User ebuka registered successfully.
+[2024-05-25 02:04:12.489 +01:00  INF]  Executing ObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[MiniSocialMediaFeed.Application.Dtos.ResponseDto.UserDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2024-05-25 02:04:12.492 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.AuthController.Register (MiniSocialMediaFeed.API) in 3330.0629ms
+[2024-05-25 02:04:12.493 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.AuthController.Register (MiniSocialMediaFeed.API)'
+[2024-05-25 02:04:12.493 +01:00  INF]  Request finished HTTP/1.1 POST https://localhost:7065/api/Auth/register - 201 null application/json; charset=utf-8 3354.3127ms
+[2024-05-25 17:01:56.282 +01:00  INF]  User profile is available. Using 'C:\Users\okpal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-25 17:01:57.609 +01:00  INF]  Now listening on: https://localhost:7065
+[2024-05-25 17:01:57.610 +01:00  INF]  Now listening on: http://localhost:5292
+[2024-05-25 17:01:57.621 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2024-05-25 17:01:57.624 +01:00  INF]  Hosting environment: Development
+[2024-05-25 17:01:57.624 +01:00  INF]  Content root path: C:\Users\okpal\source\repos\MiniSocialMediaFeed.API\MiniSocialMediaFeed.API
+[2024-05-25 17:02:00.211 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/index.html - null null
+[2024-05-25 17:02:00.954 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/index.html - 200 null text/html;charset=utf-8 760.0328ms
+[2024-05-25 17:02:00.966 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/_framework/aspnetcore-browser-refresh.js - null null
+[2024-05-25 17:02:00.999 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 33.5944ms
+[2024-05-25 17:02:01.364 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7065/swagger/v1/swagger.json - null null
+[2024-05-25 17:02:02.250 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7065/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 885.4967ms
+[2024-05-25 17:04:48.589 +01:00  INF]  Request starting HTTP/1.1 POST https://localhost:7065/api/Auth/register - application/json 53
+[2024-05-25 17:04:48.608 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.AuthController.Register (MiniSocialMediaFeed.API)'
+[2024-05-25 17:04:48.673 +01:00  INF]  Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MiniSocialMediaFeed.Application.Dtos.RequestDto.RegisterUserReqDto) on controller MiniSocialMediaFeed.API.Controllers.AuthController (MiniSocialMediaFeed.API).
+[2024-05-25 17:04:55.337 +01:00  INF] okeke Registering user with username: okeke
+[2024-05-25 17:04:56.413 +01:00  INF]  Executed DbCommand (90ms) [Parameters=[@__registerUserDto_Username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__registerUserDto_Username_0
+[2024-05-25 17:04:56.640 +01:00  INF]  Executed DbCommand (13ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([PasswordHash], [Username])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+[2024-05-25 17:04:56.692 +01:00  INF] okeke User okeke registered successfully.
+[2024-05-25 17:04:56.705 +01:00  INF]  Executing ObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[MiniSocialMediaFeed.Application.Dtos.ResponseDto.UserDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2024-05-25 17:04:56.721 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.AuthController.Register (MiniSocialMediaFeed.API) in 8042.7101ms
+[2024-05-25 17:04:56.722 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.AuthController.Register (MiniSocialMediaFeed.API)'
+[2024-05-25 17:04:56.731 +01:00  INF]  Request finished HTTP/1.1 POST https://localhost:7065/api/Auth/register - 201 null application/json; charset=utf-8 8142.0476ms
+[2024-05-25 17:05:06.105 +01:00  INF]  Request starting HTTP/1.1 POST https://localhost:7065/api/Auth/register - application/json 57
+[2024-05-25 17:05:06.108 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.AuthController.Register (MiniSocialMediaFeed.API)'
+[2024-05-25 17:05:06.108 +01:00  INF]  Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MiniSocialMediaFeed.Application.Dtos.RequestDto.RegisterUserReqDto) on controller MiniSocialMediaFeed.API.Controllers.AuthController (MiniSocialMediaFeed.API).
+[2024-05-25 17:05:06.215 +01:00  INF] okechukwu Registering user with username: okechukwu
+[2024-05-25 17:05:06.224 +01:00  INF]  Executed DbCommand (4ms) [Parameters=[@__registerUserDto_Username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__registerUserDto_Username_0
+[2024-05-25 17:05:06.232 +01:00  INF]  Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([PasswordHash], [Username])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+[2024-05-25 17:05:06.234 +01:00  INF] okechukwu User okechukwu registered successfully.
+[2024-05-25 17:05:06.234 +01:00  INF]  Executing ObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[MiniSocialMediaFeed.Application.Dtos.ResponseDto.UserDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2024-05-25 17:05:06.235 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.AuthController.Register (MiniSocialMediaFeed.API) in 125.9982ms
+[2024-05-25 17:05:06.235 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.AuthController.Register (MiniSocialMediaFeed.API)'
+[2024-05-25 17:05:06.235 +01:00  INF]  Request finished HTTP/1.1 POST https://localhost:7065/api/Auth/register - 201 null application/json; charset=utf-8 129.9148ms
+[2024-05-25 17:05:30.147 +01:00  INF]  Request starting HTTP/1.1 GET https://localhost:7065/api/Posts/feed?userId=4&pageNumber=1&pageSize=10 - null null
+[2024-05-25 17:05:30.151 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API)'
+[2024-05-25 17:05:30.164 +01:00  INF]  Route matched with {action = "GetFeed", controller = "Posts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFeed(Int32, Int32, Int32) on controller MiniSocialMediaFeed.API.Controllers.PostsController (MiniSocialMediaFeed.API).
+[2024-05-25 17:05:33.566 +01:00  INF]  Retrieving feed for user ID: 4
+[2024-05-25 17:05:33.587 +01:00  INF]  Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[Id], [f].[FolloweeId], [f].[FollowerId]
+FROM [Follows] AS [f]
+WHERE [f].[FollowerId] = @__userId_0
+[2024-05-25 17:05:33.767 +01:00  INF]  Executed DbCommand (9ms) [Parameters=[@__followingIds_0='?' (Size = 4000), @__userId_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Content], [p].[CreatedAt], [p].[Likes], [p].[UserId]
+FROM [Posts] AS [p]
+WHERE [p].[UserId] IN (
+    SELECT [f].[value]
+    FROM OPENJSON(@__followingIds_0) WITH ([value] int '$') AS [f]
+) OR [p].[UserId] = @__userId_1
+ORDER BY [p].[Likes] DESC
+OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+[2024-05-25 17:05:33.790 +01:00  INF]  Feed retrieved successfully for user ID: 4
+[2024-05-25 17:05:33.791 +01:00  INF]  Executing OkObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[System.Collections.Generic.IEnumerable`1[[MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2024-05-25 17:05:33.794 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API) in 3630.2698ms
+[2024-05-25 17:05:33.794 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API)'
+[2024-05-25 17:05:33.795 +01:00  INF]  Request finished HTTP/1.1 GET https://localhost:7065/api/Posts/feed?userId=4&pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 3650.5996ms
+[2024-05-25 17:06:00.304 +01:00  INF]  Request starting HTTP/1.1 POST https://localhost:7065/api/Posts - application/json 48
+[2024-05-25 17:06:00.310 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API)'
+[2024-05-25 17:06:00.317 +01:00  INF]  Route matched with {action = "CreatePost", controller = "Posts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePost(MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto) on controller MiniSocialMediaFeed.API.Controllers.PostsController (MiniSocialMediaFeed.API).
+[2024-05-25 17:06:07.794 +01:00  INF]  Creating post for user ID: 4
+[2024-05-25 17:06:07.844 +01:00  INF]  Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Posts] ([Content], [CreatedAt], [Likes], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+[2024-05-25 17:06:07.851 +01:00  INF]  Post created successfully for user ID: 4
+[2024-05-25 17:06:07.851 +01:00  INF]  Executing ObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2024-05-25 17:06:07.854 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API) in 7536.2704ms
+[2024-05-25 17:06:07.854 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API)'
+[2024-05-25 17:06:07.854 +01:00  INF]  Request finished HTTP/1.1 POST https://localhost:7065/api/Posts - 201 null application/json; charset=utf-8 7551.3305ms
+[2024-05-25 17:06:12.774 +01:00  INF]  Request starting HTTP/1.1 GET https://localhost:7065/api/Posts/feed?userId=4&pageNumber=1&pageSize=10 - null null
+[2024-05-25 17:06:12.775 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API)'
+[2024-05-25 17:06:12.775 +01:00  INF]  Route matched with {action = "GetFeed", controller = "Posts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFeed(Int32, Int32, Int32) on controller MiniSocialMediaFeed.API.Controllers.PostsController (MiniSocialMediaFeed.API).
+[2024-05-25 17:06:12.782 +01:00  INF]  Retrieving feed for user ID: 4
+[2024-05-25 17:06:12.788 +01:00  INF]  Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[Id], [f].[FolloweeId], [f].[FollowerId]
+FROM [Follows] AS [f]
+WHERE [f].[FollowerId] = @__userId_0
+[2024-05-25 17:06:12.803 +01:00  INF]  Executed DbCommand (12ms) [Parameters=[@__followingIds_0='?' (Size = 4000), @__userId_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Content], [p].[CreatedAt], [p].[Likes], [p].[UserId]
+FROM [Posts] AS [p]
+WHERE [p].[UserId] IN (
+    SELECT [f].[value]
+    FROM OPENJSON(@__followingIds_0) WITH ([value] int '$') AS [f]
+) OR [p].[UserId] = @__userId_1
+ORDER BY [p].[Likes] DESC
+OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+[2024-05-25 17:06:12.816 +01:00  INF]  Feed retrieved successfully for user ID: 4
+[2024-05-25 17:06:12.816 +01:00  INF]  Executing OkObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[System.Collections.Generic.IEnumerable`1[[MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2024-05-25 17:06:12.817 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API) in 42.1243ms
+[2024-05-25 17:06:12.818 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API)'
+[2024-05-25 17:06:12.818 +01:00  INF]  Request finished HTTP/1.1 GET https://localhost:7065/api/Posts/feed?userId=4&pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 44.2691ms
+[2024-05-25 17:06:51.261 +01:00  INF]  Request starting HTTP/1.1 POST https://localhost:7065/api/Follows/3/follow/4 - null 0
+[2024-05-25 17:06:51.265 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.FollowsController.FollowUser (MiniSocialMediaFeed.API)'
+[2024-05-25 17:06:51.284 +01:00  INF]  Route matched with {action = "FollowUser", controller = "Follows"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FollowUser(Int32, Int32) on controller MiniSocialMediaFeed.API.Controllers.FollowsController (MiniSocialMediaFeed.API).
+[2024-05-25 17:06:54.139 +01:00  INF]  User ID: 3 attempting to follow user ID: 4
+[2024-05-25 17:06:54.151 +01:00  INF]  Executed DbCommand (5ms) [Parameters=[@__followerId_0='?' (DbType = Int32), @__followeeId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[Id], [f].[FolloweeId], [f].[FollowerId]
+FROM [Follows] AS [f]
+WHERE [f].[FollowerId] = @__followerId_0 AND [f].[FolloweeId] = @__followeeId_1
+[2024-05-25 17:06:54.173 +01:00  INF]  Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Follows] ([FolloweeId], [FollowerId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+[2024-05-25 17:06:58.314 +01:00  INF]  User ID: 3 successfully followed user ID: 4
+[2024-05-25 17:06:58.314 +01:00  INF]  Executing ObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[MiniSocialMediaFeed.Application.Dtos.ResponseDto.FollowRespDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2024-05-25 17:06:58.318 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.FollowsController.FollowUser (MiniSocialMediaFeed.API) in 7034.2196ms
+[2024-05-25 17:06:58.318 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.FollowsController.FollowUser (MiniSocialMediaFeed.API)'
+[2024-05-25 17:06:58.319 +01:00  INF]  Request finished HTTP/1.1 POST https://localhost:7065/api/Follows/3/follow/4 - 200 null application/json; charset=utf-8 7057.5496ms
+[2024-05-25 17:07:05.627 +01:00  INF]  Request starting HTTP/1.1 GET https://localhost:7065/api/Posts/feed?userId=4&pageNumber=1&pageSize=10 - null null
+[2024-05-25 17:07:05.627 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API)'
+[2024-05-25 17:07:05.627 +01:00  INF]  Route matched with {action = "GetFeed", controller = "Posts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFeed(Int32, Int32, Int32) on controller MiniSocialMediaFeed.API.Controllers.PostsController (MiniSocialMediaFeed.API).
+[2024-05-25 17:07:05.629 +01:00  INF]  Retrieving feed for user ID: 4
+[2024-05-25 17:07:05.635 +01:00  INF]  Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[Id], [f].[FolloweeId], [f].[FollowerId]
+FROM [Follows] AS [f]
+WHERE [f].[FollowerId] = @__userId_0
+[2024-05-25 17:07:05.649 +01:00  INF]  Executed DbCommand (13ms) [Parameters=[@__followingIds_0='?' (Size = 4000), @__userId_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Content], [p].[CreatedAt], [p].[Likes], [p].[UserId]
+FROM [Posts] AS [p]
+WHERE [p].[UserId] IN (
+    SELECT [f].[value]
+    FROM OPENJSON(@__followingIds_0) WITH ([value] int '$') AS [f]
+) OR [p].[UserId] = @__userId_1
+ORDER BY [p].[Likes] DESC
+OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+[2024-05-25 17:07:05.649 +01:00  INF]  Feed retrieved successfully for user ID: 4
+[2024-05-25 17:07:05.650 +01:00  INF]  Executing OkObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[System.Collections.Generic.IEnumerable`1[[MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2024-05-25 17:07:05.650 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API) in 22.8901ms
+[2024-05-25 17:07:05.650 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API)'
+[2024-05-25 17:07:05.651 +01:00  INF]  Request finished HTTP/1.1 GET https://localhost:7065/api/Posts/feed?userId=4&pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 24.3848ms
+[2024-05-25 17:12:07.102 +01:00  INF]  Request starting HTTP/1.1 POST https://localhost:7065/api/Posts - application/json 48
+[2024-05-25 17:12:07.103 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API)'
+[2024-05-25 17:12:07.103 +01:00  INF]  Route matched with {action = "CreatePost", controller = "Posts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePost(MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto) on controller MiniSocialMediaFeed.API.Controllers.PostsController (MiniSocialMediaFeed.API).
+[2024-05-25 17:12:07.105 +01:00  INF]  Creating post for user ID: 3
+[2024-05-25 17:12:07.129 +01:00  INF]  Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Posts] ([Content], [CreatedAt], [Likes], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+[2024-05-25 17:12:07.130 +01:00  INF]  Post created successfully for user ID: 3
+[2024-05-25 17:12:07.130 +01:00  INF]  Executing ObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2024-05-25 17:12:07.130 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API) in 27.3416ms
+[2024-05-25 17:12:07.130 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API)'
+[2024-05-25 17:12:07.130 +01:00  INF]  Request finished HTTP/1.1 POST https://localhost:7065/api/Posts - 201 null application/json; charset=utf-8 28.2906ms
+[2024-05-25 17:12:10.343 +01:00  INF]  Request starting HTTP/1.1 GET https://localhost:7065/api/Posts/feed?userId=2&pageNumber=1&pageSize=10 - null null
+[2024-05-25 17:12:10.343 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API)'
+[2024-05-25 17:12:10.344 +01:00  INF]  Route matched with {action = "GetFeed", controller = "Posts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFeed(Int32, Int32, Int32) on controller MiniSocialMediaFeed.API.Controllers.PostsController (MiniSocialMediaFeed.API).
+[2024-05-25 17:12:10.345 +01:00  INF]  Retrieving feed for user ID: 2
+[2024-05-25 17:12:10.348 +01:00  INF]  Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[Id], [f].[FolloweeId], [f].[FollowerId]
+FROM [Follows] AS [f]
+WHERE [f].[FollowerId] = @__userId_0
+[2024-05-25 17:12:10.368 +01:00  INF]  Executed DbCommand (8ms) [Parameters=[@__followingIds_0='?' (Size = 4000), @__userId_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Content], [p].[CreatedAt], [p].[Likes], [p].[UserId]
+FROM [Posts] AS [p]
+WHERE [p].[UserId] IN (
+    SELECT [f].[value]
+    FROM OPENJSON(@__followingIds_0) WITH ([value] int '$') AS [f]
+) OR [p].[UserId] = @__userId_1
+ORDER BY [p].[Likes] DESC
+OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+[2024-05-25 17:12:10.369 +01:00  INF]  Feed retrieved successfully for user ID: 2
+[2024-05-25 17:12:10.369 +01:00  INF]  Executing OkObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[System.Collections.Generic.IEnumerable`1[[MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2024-05-25 17:12:10.369 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API) in 25.7795ms
+[2024-05-25 17:12:10.369 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API)'
+[2024-05-25 17:12:10.370 +01:00  INF]  Request finished HTTP/1.1 GET https://localhost:7065/api/Posts/feed?userId=2&pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 26.7694ms
+[2024-05-25 17:12:23.387 +01:00  INF]  Request starting HTTP/1.1 GET https://localhost:7065/api/Posts/feed?userId=4&pageNumber=1&pageSize=10 - null null
+[2024-05-25 17:12:23.388 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API)'
+[2024-05-25 17:12:23.388 +01:00  INF]  Route matched with {action = "GetFeed", controller = "Posts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFeed(Int32, Int32, Int32) on controller MiniSocialMediaFeed.API.Controllers.PostsController (MiniSocialMediaFeed.API).
+[2024-05-25 17:12:23.389 +01:00  INF]  Retrieving feed for user ID: 4
+[2024-05-25 17:12:23.391 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[Id], [f].[FolloweeId], [f].[FollowerId]
+FROM [Follows] AS [f]
+WHERE [f].[FollowerId] = @__userId_0
+[2024-05-25 17:12:23.395 +01:00  INF]  Executed DbCommand (1ms) [Parameters=[@__followingIds_0='?' (Size = 4000), @__userId_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Content], [p].[CreatedAt], [p].[Likes], [p].[UserId]
+FROM [Posts] AS [p]
+WHERE [p].[UserId] IN (
+    SELECT [f].[value]
+    FROM OPENJSON(@__followingIds_0) WITH ([value] int '$') AS [f]
+) OR [p].[UserId] = @__userId_1
+ORDER BY [p].[Likes] DESC
+OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+[2024-05-25 17:12:23.395 +01:00  INF]  Feed retrieved successfully for user ID: 4
+[2024-05-25 17:12:23.395 +01:00  INF]  Executing OkObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[System.Collections.Generic.IEnumerable`1[[MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2024-05-25 17:12:23.396 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API) in 7.8574ms
+[2024-05-25 17:12:23.396 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API)'
+[2024-05-25 17:12:23.396 +01:00  INF]  Request finished HTTP/1.1 GET https://localhost:7065/api/Posts/feed?userId=4&pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 8.7854ms
+[2024-05-25 17:12:50.716 +01:00  INF]  Request starting HTTP/1.1 POST https://localhost:7065/api/Follows/3/follow/4 - null 0
+[2024-05-25 17:12:50.729 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.FollowsController.FollowUser (MiniSocialMediaFeed.API)'
+[2024-05-25 17:12:50.729 +01:00  INF]  Route matched with {action = "FollowUser", controller = "Follows"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FollowUser(Int32, Int32) on controller MiniSocialMediaFeed.API.Controllers.FollowsController (MiniSocialMediaFeed.API).
+[2024-05-25 17:12:50.734 +01:00  INF]  User ID: 3 attempting to follow user ID: 4
+[2024-05-25 17:12:50.744 +01:00  INF]  Executed DbCommand (8ms) [Parameters=[@__followerId_0='?' (DbType = Int32), @__followeeId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[Id], [f].[FolloweeId], [f].[FollowerId]
+FROM [Follows] AS [f]
+WHERE [f].[FollowerId] = @__followerId_0 AND [f].[FolloweeId] = @__followeeId_1
+[2024-05-25 17:12:50.745 +01:00  WRN]  User ID: 3 is already following user ID: 4
+[2024-05-25 17:12:50.746 +01:00  INF]  Executing ObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[MiniSocialMediaFeed.Application.Dtos.ResponseDto.FollowRespDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2024-05-25 17:12:50.746 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.FollowsController.FollowUser (MiniSocialMediaFeed.API) in 17.1162ms
+[2024-05-25 17:12:50.746 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.FollowsController.FollowUser (MiniSocialMediaFeed.API)'
+[2024-05-25 17:12:50.747 +01:00  INF]  Request finished HTTP/1.1 POST https://localhost:7065/api/Follows/3/follow/4 - 409 null application/json; charset=utf-8 30.3266ms
+[2024-05-25 17:13:12.087 +01:00  INF]  Request starting HTTP/1.1 GET https://localhost:7065/api/Posts/feed?userId=4&pageNumber=1&pageSize=10 - null null
+[2024-05-25 17:13:12.089 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API)'
+[2024-05-25 17:13:12.089 +01:00  INF]  Route matched with {action = "GetFeed", controller = "Posts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFeed(Int32, Int32, Int32) on controller MiniSocialMediaFeed.API.Controllers.PostsController (MiniSocialMediaFeed.API).
+[2024-05-25 17:13:12.129 +01:00  INF]  Retrieving feed for user ID: 4
+[2024-05-25 17:13:12.135 +01:00  INF]  Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[Id], [f].[FolloweeId], [f].[FollowerId]
+FROM [Follows] AS [f]
+WHERE [f].[FollowerId] = @__userId_0
+[2024-05-25 17:13:12.169 +01:00  INF]  Executed DbCommand (18ms) [Parameters=[@__followingIds_0='?' (Size = 4000), @__userId_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Content], [p].[CreatedAt], [p].[Likes], [p].[UserId]
+FROM [Posts] AS [p]
+WHERE [p].[UserId] IN (
+    SELECT [f].[value]
+    FROM OPENJSON(@__followingIds_0) WITH ([value] int '$') AS [f]
+) OR [p].[UserId] = @__userId_1
+ORDER BY [p].[Likes] DESC
+OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+[2024-05-25 17:13:12.170 +01:00  INF]  Feed retrieved successfully for user ID: 4
+[2024-05-25 17:13:12.170 +01:00  INF]  Executing OkObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[System.Collections.Generic.IEnumerable`1[[MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2024-05-25 17:13:12.170 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API) in 80.9379ms
+[2024-05-25 17:13:12.171 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API)'
+[2024-05-25 17:13:12.171 +01:00  INF]  Request finished HTTP/1.1 GET https://localhost:7065/api/Posts/feed?userId=4&pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 84.8012ms
+[2024-05-25 17:14:41.188 +01:00  INF]  Request starting HTTP/1.1 POST https://localhost:7065/api/Follows/4/follow/3 - null 0
+[2024-05-25 17:14:41.188 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.FollowsController.FollowUser (MiniSocialMediaFeed.API)'
+[2024-05-25 17:14:41.193 +01:00  INF]  Route matched with {action = "FollowUser", controller = "Follows"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FollowUser(Int32, Int32) on controller MiniSocialMediaFeed.API.Controllers.FollowsController (MiniSocialMediaFeed.API).
+[2024-05-25 17:14:41.199 +01:00  INF]  User ID: 4 attempting to follow user ID: 3
+[2024-05-25 17:14:41.206 +01:00  INF]  Executed DbCommand (6ms) [Parameters=[@__followerId_0='?' (DbType = Int32), @__followeeId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[Id], [f].[FolloweeId], [f].[FollowerId]
+FROM [Follows] AS [f]
+WHERE [f].[FollowerId] = @__followerId_0 AND [f].[FolloweeId] = @__followeeId_1
+[2024-05-25 17:14:41.273 +01:00  INF]  Executed DbCommand (30ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Follows] ([FolloweeId], [FollowerId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+[2024-05-25 17:14:41.274 +01:00  INF]  User ID: 4 successfully followed user ID: 3
+[2024-05-25 17:14:41.274 +01:00  INF]  Executing ObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[MiniSocialMediaFeed.Application.Dtos.ResponseDto.FollowRespDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2024-05-25 17:14:41.274 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.FollowsController.FollowUser (MiniSocialMediaFeed.API) in 79.2882ms
+[2024-05-25 17:14:41.275 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.FollowsController.FollowUser (MiniSocialMediaFeed.API)'
+[2024-05-25 17:14:41.275 +01:00  INF]  Request finished HTTP/1.1 POST https://localhost:7065/api/Follows/4/follow/3 - 200 null application/json; charset=utf-8 87.2148ms
+[2024-05-25 17:14:46.547 +01:00  INF]  Request starting HTTP/1.1 GET https://localhost:7065/api/Posts/feed?userId=4&pageNumber=1&pageSize=10 - null null
+[2024-05-25 17:14:46.548 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API)'
+[2024-05-25 17:14:46.548 +01:00  INF]  Route matched with {action = "GetFeed", controller = "Posts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFeed(Int32, Int32, Int32) on controller MiniSocialMediaFeed.API.Controllers.PostsController (MiniSocialMediaFeed.API).
+[2024-05-25 17:14:46.549 +01:00  INF]  Retrieving feed for user ID: 4
+[2024-05-25 17:14:46.555 +01:00  INF]  Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[Id], [f].[FolloweeId], [f].[FollowerId]
+FROM [Follows] AS [f]
+WHERE [f].[FollowerId] = @__userId_0
+[2024-05-25 17:14:46.569 +01:00  INF]  Executed DbCommand (13ms) [Parameters=[@__followingIds_0='?' (Size = 4000), @__userId_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Content], [p].[CreatedAt], [p].[Likes], [p].[UserId]
+FROM [Posts] AS [p]
+WHERE [p].[UserId] IN (
+    SELECT [f].[value]
+    FROM OPENJSON(@__followingIds_0) WITH ([value] int '$') AS [f]
+) OR [p].[UserId] = @__userId_1
+ORDER BY [p].[Likes] DESC
+OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+[2024-05-25 17:14:46.570 +01:00  INF]  Feed retrieved successfully for user ID: 4
+[2024-05-25 17:14:46.570 +01:00  INF]  Executing OkObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[System.Collections.Generic.IEnumerable`1[[MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2024-05-25 17:14:46.571 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API) in 22.5258ms
+[2024-05-25 17:14:46.571 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API)'
+[2024-05-25 17:14:46.571 +01:00  INF]  Request finished HTTP/1.1 GET https://localhost:7065/api/Posts/feed?userId=4&pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 23.9325ms
+[2024-05-25 17:15:02.793 +01:00  INF]  Request starting HTTP/1.1 POST https://localhost:7065/api/Posts - application/json 45
+[2024-05-25 17:15:02.794 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API)'
+[2024-05-25 17:15:02.794 +01:00  INF]  Route matched with {action = "CreatePost", controller = "Posts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePost(MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto) on controller MiniSocialMediaFeed.API.Controllers.PostsController (MiniSocialMediaFeed.API).
+[2024-05-25 17:15:02.796 +01:00  INF]  Creating post for user ID: 3
+[2024-05-25 17:15:02.802 +01:00  INF]  Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Posts] ([Content], [CreatedAt], [Likes], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+[2024-05-25 17:15:02.803 +01:00  INF]  Post created successfully for user ID: 3
+[2024-05-25 17:15:02.803 +01:00  INF]  Executing ObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2024-05-25 17:15:02.804 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API) in 9.6284ms
+[2024-05-25 17:15:02.804 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.CreatePost (MiniSocialMediaFeed.API)'
+[2024-05-25 17:15:02.804 +01:00  INF]  Request finished HTTP/1.1 POST https://localhost:7065/api/Posts - 201 null application/json; charset=utf-8 11.0098ms
+[2024-05-25 17:15:08.092 +01:00  INF]  Request starting HTTP/1.1 GET https://localhost:7065/api/Posts/feed?userId=4&pageNumber=1&pageSize=10 - null null
+[2024-05-25 17:15:08.093 +01:00  INF]  Executing endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API)'
+[2024-05-25 17:15:08.093 +01:00  INF]  Route matched with {action = "GetFeed", controller = "Posts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFeed(Int32, Int32, Int32) on controller MiniSocialMediaFeed.API.Controllers.PostsController (MiniSocialMediaFeed.API).
+[2024-05-25 17:15:08.093 +01:00  INF]  Retrieving feed for user ID: 4
+[2024-05-25 17:15:08.097 +01:00  INF]  Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[Id], [f].[FolloweeId], [f].[FollowerId]
+FROM [Follows] AS [f]
+WHERE [f].[FollowerId] = @__userId_0
+[2024-05-25 17:15:08.106 +01:00  INF]  Executed DbCommand (8ms) [Parameters=[@__followingIds_0='?' (Size = 4000), @__userId_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Content], [p].[CreatedAt], [p].[Likes], [p].[UserId]
+FROM [Posts] AS [p]
+WHERE [p].[UserId] IN (
+    SELECT [f].[value]
+    FROM OPENJSON(@__followingIds_0) WITH ([value] int '$') AS [f]
+) OR [p].[UserId] = @__userId_1
+ORDER BY [p].[Likes] DESC
+OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+[2024-05-25 17:15:08.107 +01:00  INF]  Feed retrieved successfully for user ID: 4
+[2024-05-25 17:15:08.107 +01:00  INF]  Executing OkObjectResult, writing value of type 'MiniSocialMediaFeed.Application.Dtos.ResponseDto.ResponseDto`1[[System.Collections.Generic.IEnumerable`1[[MiniSocialMediaFeed.Application.Dtos.RequestDto.PostReqDto, MiniSocialMediaFeed.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2024-05-25 17:15:08.107 +01:00  INF]  Executed action MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API) in 14.511ms
+[2024-05-25 17:15:08.107 +01:00  INF]  Executed endpoint 'MiniSocialMediaFeed.API.Controllers.PostsController.GetFeed (MiniSocialMediaFeed.API)'
+[2024-05-25 17:15:08.108 +01:00  INF]  Request finished HTTP/1.1 GET https://localhost:7065/api/Posts/feed?userId=4&pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 15.3216ms
